@@ -1,5 +1,6 @@
 package Lesson3;
 //
+//
 import java.util.Random;
 
 public class HomeWorkApp3 {
