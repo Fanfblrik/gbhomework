@@ -1,4 +1,6 @@
-package GuiApp.components;
+package Lesson8.GuiApp.components;
+
+
 
 import javax.swing.*;
 import java.awt.*;

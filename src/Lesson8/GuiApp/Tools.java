@@ -1,4 +1,4 @@
-package GuiApp;
+package Lesson8.GuiApp;
 
 import java.util.Random;
 

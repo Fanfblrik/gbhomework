@@ -1,6 +1,6 @@
-package GuiApp;
+package Lesson8.GuiApp;
 
-import GuiApp.components.AppWindow;
+import Lesson8.GuiApp.components.AppWindow;
 
 /**
  * Created by Aleksandr Gladkov [Anticisco]

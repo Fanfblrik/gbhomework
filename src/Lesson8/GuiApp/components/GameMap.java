@@ -1,8 +1,15 @@
-package GuiApp.components;
+package Lesson8.GuiApp.components;
 
-import GuiApp.Tools;
-import GuiApp.models.Enemy;
-import GuiApp.models.Player;
+import Lesson8.GuiApp.Tools;
+import Lesson8.GuiApp.models.Enemy;
+import Lesson8.GuiApp.models.Player;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.io.*;
+import javax.imageio.*;
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
 
 import javax.swing.*;
 import java.awt.*;
@@ -39,6 +46,7 @@ public class GameMap extends JPanel {
     private int cellHeight;
 
     private Player player;
+    Image img;
     private Enemy enemy;
 
     private boolean isExist;
@@ -209,6 +217,7 @@ public class GameMap extends JPanel {
 
         room[player.getY()][player.getX()] = CELL_PLAYER;
         room[lastPosY][lastPosX] = CELL_READY;
+        player.increaseHealth(1);
     }
 
     private boolean checkPlayerMove(int currentX, int currentY, int nextX, int nextY) {

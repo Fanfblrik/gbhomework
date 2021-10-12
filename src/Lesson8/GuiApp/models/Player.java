@@ -1,4 +1,4 @@
-package GuiApp.models;
+package Lesson8.GuiApp.models;
 
 /**
  * Created by Aleksandr Gladkov [Anticisco]
@@ -21,6 +21,12 @@ public class Player {
         this.x = x;
         this.y = y;
     }
+
+    public void increaseHealth(int value){
+        if (this.health < 100){
+            this.health +=value;
+        }
+        }
 
     public void decreaseHealth(int value) {
         this.health -= value;
@@ -65,4 +71,5 @@ public class Player {
     public int getY() {
         return y;
     }
+
 }

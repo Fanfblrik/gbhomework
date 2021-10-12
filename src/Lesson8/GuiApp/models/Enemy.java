@@ -1,6 +1,6 @@
-package GuiApp.models;
+package Lesson8.GuiApp.models;
 
-import GuiApp.Tools;
+import Lesson8.GuiApp.Tools;
 
 /**
  * Created by Aleksandr Gladkov [Anticisco]
@@ -11,8 +11,8 @@ public class Enemy {
 
     private int health;
     private int power;
-    private int enemyValueMin = 30;
-    private int enemyValueMax = 60;
+    private int enemyValueMin = 5;
+    private int enemyValueMax = 10;
 
     private int x;
     private int y;
